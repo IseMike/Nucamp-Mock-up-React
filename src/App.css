@@ -1,39 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+.jumbotron {
+      margin: 0;
+      padding: 20px;
+      background-color: #0a0908;
+      border-style: solid;
+      border-color: #9d263e;
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
+  
+  h1, h2, h3, h5{
+      color: #9d263e;
+      background-color: #0a0908;
+      font-family: monospace;
+  } 
+  
+  p, label {
+      color: #d13454;
   }
-  50% {
-    transform: translateY(10px);
+  
+  textarea {
+      outline-style: solid;
+      outline-color: #d13454
   }
-  100% {
-    transform: translateY(0px);
+  
+  body h2 {
+      padding: 50px;
   }
-}
+  
+  .row-content h3 {
+      width: fit-content;
+  }
+  
+  .row-content {
+      background-color:#0a0908;
+  }
+  
+  .navbar {
+      background-color: #f2f4f3;
+      background-color: #0a0908;
+      border-style: solid;
+      border-color: #9d263e;
+  }
+  
+  body{
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #f2f4f3;
+      background-image: url("./app/assets/img/inside_1.jpg");
+      background-size: cover;
+  }
+  
+  .row-content {
+      margin: 20px;
+      padding: 50px 0;
+      min-height: 200px;
+  }
+  
+  #resNavbar a {
+      color: #d13454;
+      margin-left: 50px;
+  }
+  
+  img {
+      background-color: #0a0908;
+      border-style: solid;
+      border-color:#0a0908;
+  }
+  
+  .media {
+      background-color: #0a0908;
+      border-style: solid;
+      border-color: #9d263e;
+  }
+  
+  .menu-item-row {
+      padding: 0;
+  }
+  
+  a, .btn-link, address {
+      background-color:#0a0908;
+      color:#d13454;
+  }
+  
+  .site-footer {
+      color:#0a0908;
+      background-color: #0a0908;
+      border-style: solid;
+      border-color:#9d263e;
+  }
+  
+  .media h3, .media img, .media p{
+      min-width: 33.33%;
+  }
+  
+  .fa-fort-awesome {
+      font-size: 100px;
+      color:#9d263e;
+  }
+
+  .page-enter {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  
+  .page-enter-active {
+      opacity: 1;
+      transform: translateX(0%);
+      transition: 300ms ease-out;
+  }
+  
+  .page-exit {
+      opacity: 1;
+  }
+  
+  .page-exit-active {
+      opacity: 0;
+      transition: 300ms ease-in;
+  }
