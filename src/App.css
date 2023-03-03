@@ -4,113 +4,125 @@
       background-color: #0a0908;
       border-style: solid;
       border-color: #9d263e;
-  }
-  
-  h1, h2, h3, h5{
+}
+
+h1,
+h2,
+h3,
+h5 {
       color: #9d263e;
       background-color: #0a0908;
       font-family: monospace;
-  } 
-  
-  p, label {
+}
+
+p,
+label {
       color: #d13454;
-  }
-  
-  textarea {
+}
+
+textarea {
       outline-style: solid;
       outline-color: #d13454
-  }
-  
-  body h2 {
+}
+
+body h2 {
       padding: 50px;
-  }
-  
-  .row-content h3 {
+}
+
+.row-content h3 {
       width: fit-content;
-  }
-  
-  .row-content {
-      background-color:#0a0908;
-  }
-  
-  .navbar {
-      background-color: #f2f4f3;
+}
+
+.row-content {
+      background-color: #0a0908;
+}
+
+.navbar {
       background-color: #0a0908;
       border-style: solid;
       border-color: #9d263e;
-  }
-  
-  body{
+}
+
+body {
       font-family: 'Courier New', Courier, monospace;
       background-color: #f2f4f3;
       background-image: url("./app/assets/img/inside_1.jpg");
+      background-repeat: no-repeat;
       background-size: cover;
-  }
-  
-  .row-content {
+}
+
+.row-content {
       margin: 20px;
       padding: 50px 0;
       min-height: 200px;
-  }
-  
-  #resNavbar a {
+}
+
+#resNavbar a {
       color: #d13454;
       margin-left: 50px;
-  }
-  
-  img {
+}
+
+img {
       background-color: #0a0908;
       border-style: solid;
-      border-color:#0a0908;
-  }
-  
-  .media {
+      border-color: #0a0908;
+}
+
+.media {
       background-color: #0a0908;
       border-style: solid;
       border-color: #9d263e;
-  }
-  
-  .menu-item-row {
+}
+
+.menu-item-row {
       padding: 0;
-  }
-  
-  a, .btn-link, address {
-      background-color:#0a0908;
-      color:#d13454;
-  }
-  
-  .site-footer {
-      color:#0a0908;
+}
+
+a,
+.btn-link,
+address {
+      background-color: #0a0908;
+      color: #d13454;
+}
+
+.site-footer {
+      color: #0a0908;
       background-color: #0a0908;
       border-style: solid;
-      border-color:#9d263e;
-  }
-  
-  .media h3, .media img, .media p{
-      min-width: 33.33%;
-  }
-  
-  .fa-fort-awesome {
-      font-size: 100px;
-      color:#9d263e;
-  }
+      border-color: #9d263e;
+}
 
-  .page-enter {
+.media h3,
+.media img,
+.media p {
+      min-width: 33.33%;
+}
+
+.fa-fort-awesome {
+      font-size: 100px;
+      color: #9d263e;
+}
+
+.page-enter {
       opacity: 0;
       transform: translateX(-100%);
-  }
-  
-  .page-enter-active {
+}
+
+.page-enter-active {
       opacity: 1;
       transform: translateX(0%);
       transition: 300ms ease-out;
-  }
-  
-  .page-exit {
+}
+
+.page-exit {
       opacity: 1;
-  }
-  
-  .page-exit-active {
+}
+
+.page-exit-active {
       opacity: 0;
       transition: 300ms ease-in;
-  }
+}
+
+.card-body {
+      background-color: #0a0908;
+}
