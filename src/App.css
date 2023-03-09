@@ -5,7 +5,8 @@ h5,
 .card-title, 
 .card-body, 
 #addCart,
-a.nav-red{
+a.nav-red,
+address{
       color: #9d263e;
       background-color: #0a0908;
       font-family: monospace;

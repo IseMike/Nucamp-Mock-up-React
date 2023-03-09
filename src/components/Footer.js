@@ -50,7 +50,7 @@ const Footer = () => {
                                     <a
                                           role='button'
                                           className='btn btn-link nav-red'
-                                          href='mailto:notreal@notreal.co'
+                                          href='mailto:Snoopys@business.co'
                                     >
                                           <i className='fa fa-envelope-o' /> fake@email.com
                                     </a>
