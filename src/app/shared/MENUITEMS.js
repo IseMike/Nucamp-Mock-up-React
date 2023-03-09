@@ -71,6 +71,6 @@ export const MENUITEMS = [
             name: 'Wings',
             image: wings,
             description:
-                  'These tangy part snacks are great to share.'
+                  'These tangy snacks are great to share.'
       }
 ];

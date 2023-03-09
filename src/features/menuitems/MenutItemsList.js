@@ -9,7 +9,7 @@ const MenuItemsList = ({ setMenuItemId }) => {
             <Row className='ms-auto'>
                   {menuitems.map((menuitems) => {
                         return (
-                              <Col md="3" className='m-4' key={menuitems.id} 
+                              <Col md='4' lg="3" className='m-4' key={menuitems.id} 
                               onClick={() => setMenuItemId(menuitems.id)}>
                                     <MenuCard menuitem={menuitems} />
                               </Col>

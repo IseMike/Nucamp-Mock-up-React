@@ -4,7 +4,7 @@ h3,
 h5, 
 .card-title, 
 .card-body, 
-.card Button,
+#addCart,
 a.nav-red{
       color: #9d263e;
       background-color: #0a0908;
@@ -12,10 +12,11 @@ a.nav-red{
       text-align: center;
 }
 
-.card Button:hover, a.nav-red:hover {
+#addCart:hover, a.nav-red:hover, #addCart:active{
       background-color: #0e0d0c;
       color:#d13454;
 }
+
 
 p,
 label {
@@ -27,16 +28,9 @@ textarea {
       outline-color: #d13454
 }
 
-body h2 {
+body h2, .home {
       padding: 50px;
-}
-
-.row-content h3 {
-      width: fit-content;
-}
-
-.row-content {
-      background-color: #0a0908;
+      margin-top: 20px;
 }
 
 .navbar {
@@ -53,10 +47,11 @@ body {
       background-size: cover;
 }
 
-.row-content {
-      margin: 20px;
+div.row-content {
+      margin: 30px;
       padding: 50px 0;
       min-height: 200px;
+      background-color: #0a0908;
 }
 
 img {
@@ -132,4 +127,10 @@ footer li {
 #detailedItem {
       position: sticky;
       top: 250px;
+}
+
+#addCart {
+      padding: 0.375rem 0.75rem;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
 }
