@@ -1,18 +1,20 @@
-.jumbotron {
-      margin: 0;
-      padding: 20px;
-      background-color: #0a0908;
-      border-style: solid;
-      border-color: #9d263e;
-}
-
 h1,
 h2,
 h3,
-h5 {
+h5, 
+.card-title, 
+.card-body, 
+.card Button,
+a.nav-red{
       color: #9d263e;
       background-color: #0a0908;
       font-family: monospace;
+      text-align: center;
+}
+
+.card Button:hover, a.nav-red:hover {
+      background-color: #0e0d0c;
+      color:#d13454;
 }
 
 p,
@@ -57,11 +59,6 @@ body {
       min-height: 200px;
 }
 
-#resNavbar a {
-      color: #d13454;
-      margin-left: 50px;
-}
-
 img {
       background-color: #0a0908;
       border-style: solid;
@@ -76,13 +73,6 @@ img {
 
 .menu-item-row {
       padding: 0;
-}
-
-a,
-.btn-link,
-address {
-      background-color: #0a0908;
-      color: #d13454;
 }
 
 .site-footer {
@@ -125,4 +115,21 @@ address {
 
 .card-body {
       background-color: #0a0908;
+}
+
+.navbar-brand > h1{
+      display: inline-block;
+}
+
+footer li {
+      text-align: center;
+}
+
+#secondNav {
+      top: 183px;
+}
+
+#detailedItem {
+      position: sticky;
+      top: 250px;
 }

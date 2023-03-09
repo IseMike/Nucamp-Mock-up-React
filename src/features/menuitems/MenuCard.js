@@ -1,13 +1,13 @@
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import { Card, CardImg, CardImgOverlay, CardTitle, CardBody } from "reactstrap";
 
 const MenuCard = ({ menuitem }) => {
       const { image, name } = menuitem;
       return (
             <Card>
                   <CardImg width='100%' src={image} alt={name} />
-                  <CardImgOverlay>
+                  <CardBody>
                         <CardTitle>{name}</CardTitle>
-                  </CardImgOverlay>
+                  </CardBody>
             </Card>
       );
 };
