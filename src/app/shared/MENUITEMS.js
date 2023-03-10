@@ -14,14 +14,17 @@ export const MENUITEMS = [
             name: 'Burger',
             image: burger,
             description:
-                  'Mouth-Watering 100% beef patty with swiss topped with mushrooms and onions.'
+                  'Mouth-Watering 100% beef patty with swiss topped with mushrooms and onions.',
+            quantity: 2
       },
       {
             id: 1,
             name: 'Pretzels',
             image: pretzel,
             description:
-                  'A fresh warm pretzel with a mustard dipping sauce.'
+                  'A fresh warm pretzel with a mustard dipping sauce.',
+            quantity: 1
+
 
       },
       {
@@ -29,48 +32,55 @@ export const MENUITEMS = [
             name: 'Jalapeno Poppers',
             image: poppers,
             description:
-                  'Spicy and Creamy, our jalapeno poppers are exactly what you need.'
+                  'Spicy and Creamy, our jalapeno poppers are exactly what you need.',
+            quantity: 0
       },
       {
             id: 3,
             name: 'Onion Rings',
             image: onionrings,
             description:
-                  'A classic side made to order.'
+                  'A classic side made to order.',
+            quantity: 2
       },
       {
             id: 4,
             name: 'Pizza',
             image: pizza,
             description:
-                  'This wood-fired delicacy has tons of toppings to choose from.'
+                  'This wood-fired delicacy has tons of toppings to choose from.',
+            quantity: 0
       },
       {
             id: 5,
             name: 'Home-made Chips',
             image: homechips,
             description:
-                  'These in-house made chips are perfectly warm and salty.'
+                  'These in-house made chips are perfectly warm and salty.',
+            quantity: 1
       },
       {
             id: 6,
             name: 'Steak',
             image: steak,
             description:
-                  'A perfect cook-to-order steak that will melt in your mouth.'
+                  'A perfect cook-to-order steak that will melt in your mouth.',
+            quantity: 0
       },
       {
             id: 7,
             name: 'Fried Pickles',
             image: pickles,
             description:
-                  'These hot, crispy and salty pickles are the ideal appetizer.'
+                  'These hot, crispy and salty pickles are the ideal appetizer.',
+            quantity: 1
       },
       {
             id: 8,
             name: 'Wings',
             image: wings,
             description:
-                  'These tangy snacks are great to share.'
+                  'These tangy snacks are great to share.',
+            quantity: 0
       }
 ];

@@ -4,7 +4,7 @@ import MenuItemsList from "../features/menuitems/MenutItemsList";
 import { selectMenuItemById } from "../features/menuitems/menuItemsSlice";
 import { useState } from "react";
 
-const MenuItemsDirectoryPage = () => {
+const MenuPage = () => {
       const [menuItemId, setMenuItemId] = useState(0);
       const selectedMenuItem = selectMenuItemById(menuItemId);
 
@@ -22,4 +22,4 @@ const MenuItemsDirectoryPage = () => {
       )
 };
 
-export default MenuItemsDirectoryPage;
+export default MenuPage;

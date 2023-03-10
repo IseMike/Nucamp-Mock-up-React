@@ -5,6 +5,7 @@ import MenuPage from './pages/MenuPage';
 import { Routes, Route } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+import CartPage from './pages/CartPage'
 
 function App() {
       return (
@@ -14,6 +15,7 @@ function App() {
                         <Route path='/' element={<HomePage />} />
                         <Route path='contact' element={<ContactPage />} />
                         <Route path='menu' element={<MenuPage />} />
+                        <Route path='cart' element={<CartPage />} />
                   </Routes>
                   <Footer />
             </div>

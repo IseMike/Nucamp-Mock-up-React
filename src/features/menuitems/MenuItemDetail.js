@@ -1,7 +1,7 @@
-import { Card, CardBody, CardImg, Col, CardText, Button } from "reactstrap";
+import { Card, CardBody, CardImg, Col, CardText } from "reactstrap";
 
 const MenuCard = ({ menuitem }) => {
-      const { image, name, description } = menuitem;
+      const { image, name, description, id } = menuitem;
       return (
             <Col md='6' className="m-1" sticky='top' id='detailedItem'>
                   <Card>
