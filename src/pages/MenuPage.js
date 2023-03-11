@@ -3,10 +3,11 @@ import MenuDetail from '../features/menuitems/MenuItemDetail';
 import MenuItemsList from "../features/menuitems/MenutItemsList";
 import { selectMenuItemById } from "../features/menuitems/menuItemsSlice";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 const MenuPage = () => {
       const [menuItemId, setMenuItemId] = useState(0);
-      const selectedMenuItem = selectMenuItemById(menuItemId);
+      const selectedMenuItem = useSelector(selectMenuItemById(menuItemId));
 
       return (
             <Container>

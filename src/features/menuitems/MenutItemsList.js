@@ -1,9 +1,10 @@
 import { Col, Row } from 'reactstrap';
 import MenuCard from './MenuCard';
 import { selectAllMenuItems } from './menuItemsSlice';
+import { useSelector } from 'react-redux';
 
 const MenuItemsList = ({ setMenuItemId }) => {
-      const menuitems = selectAllMenuItems();
+      const menuitems = useSelector(selectAllMenuItems);
 
       return (
             <Row className='ms-auto'>

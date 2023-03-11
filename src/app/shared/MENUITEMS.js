@@ -15,7 +15,7 @@ export const MENUITEMS = [
             image: burger,
             description:
                   'Mouth-Watering 100% beef patty with swiss topped with mushrooms and onions.',
-            quantity: 2
+            quantity: 0
       },
       {
             id: 1,

@@ -135,3 +135,9 @@ footer li {
       border: 1px solid transparent;
       border-radius: 0.25rem;
 }
+
+.cartItem {
+      position: relative;
+      margin-top: 65px;
+}
+
