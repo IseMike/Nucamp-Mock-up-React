@@ -23,7 +23,7 @@ export const MENUITEMS = [
             image: pretzel,
             description:
                   'A fresh warm pretzel with a mustard dipping sauce.',
-            quantity: 1
+            quantity: 0
 
 
       },
@@ -41,7 +41,7 @@ export const MENUITEMS = [
             image: onionrings,
             description:
                   'A classic side made to order.',
-            quantity: 2
+            quantity: 0
       },
       {
             id: 4,
@@ -57,7 +57,7 @@ export const MENUITEMS = [
             image: homechips,
             description:
                   'These in-house made chips are perfectly warm and salty.',
-            quantity: 1
+            quantity: 0
       },
       {
             id: 6,
@@ -73,7 +73,7 @@ export const MENUITEMS = [
             image: pickles,
             description:
                   'These hot, crispy and salty pickles are the ideal appetizer.',
-            quantity: 1
+            quantity: 0
       },
       {
             id: 8,

@@ -1,6 +1,4 @@
 import { Col } from "reactstrap";
-import { useSelector } from "react-redux"
-import { selectMenuItemByQuantity } from "../menuitems/menuItemsSlice"
 import CartItem from "./CartItem";
 
 const CartItemsList = ({ cartItems }) => {
