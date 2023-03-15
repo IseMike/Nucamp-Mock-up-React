@@ -16,17 +16,19 @@ const menuItemsSlice = createSlice({
                   const replace = {
                         ...action.payload,
                         quantity: action.payload.quantity + 1
-                  }
-
-                  console.log(replace)
-
+                  };
                   state.menuItemsArray[action.payload.id] = replace;
      
             },
             decrementQuantity: (state, action) => {
                   console.log('decrementQuantity actiona.payload:', action.payload);
                   console.log('decrementQuantity state.menuItemsArray:', state.menuItemsArray);
-                  console.log('In the decrement');
+
+                  const replace = {
+                        ...action.payload,
+                        quantity: action.payload.quantity - 1
+                  };
+                  state.menuItemsArray[action.payload.id] = replace;
             }
       }
 });

@@ -1,9 +1,6 @@
-import { Container, Row, Col, Button } from "reactstrap";
-import { useParams } from "react-router-dom";
 import { selectMenuItemByQuantity } from "../features/menuitems/menuItemsSlice";
 import { useSelector } from "react-redux";
 import CartItemsList from "../features/carts/CartItemsList";
-import CartItem from "../features/carts/CartItem";
 
 
 const CartPage = () => {

@@ -17,7 +17,7 @@ const CartItemsList = ({ cartItems }) => {
       }
       return (
             <Col>
-                  There are no items in your cart yet.
+                  <h3>There are no items in your cart yet.</h3>
             </Col>
       );
 };

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Card, CardBody, CardImg, Col, CardText } from "reactstrap";
 import { incrementQuantity } from "./menuItemsSlice";
 import { useDispatch } from "react-redux";

@@ -1,5 +1,4 @@
 import { Row, Col } from 'reactstrap';
-import { useState } from 'react'
 import { decrementQuantity, incrementQuantity } from '../menuitems/menuItemsSlice';
 import { useDispatch } from 'react-redux';
 
@@ -12,11 +11,11 @@ const CartItem = ({ menuItem }) => {
                   <Row md='6' className='cartRow'>
                         <Col ><img src={image} /></Col>
                         <Col md='4'><h3 className='cartItem'>{name}</h3></Col>
-                        <Col>
+                        <span id='quantity-buttons'>
                               <button id='plus' onClick={() => dispatch(incrementQuantity(menuItem))}><i className="fa fa-plus" /></button>
                               <h3>{quantity}</h3>
                               <button id='minus' onClick={() => dispatch(decrementQuantity(menuItem))}><i className="fa fa-minus" /></button>
-                        </Col>
+                        </span>
                   </Row>
                   <br />
             </div>

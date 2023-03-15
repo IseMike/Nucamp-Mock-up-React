@@ -1,4 +1,4 @@
-import { Card, CardImg, CardImgOverlay, CardTitle, CardBody } from "reactstrap";
+import { Card, CardImg, CardTitle, CardBody } from "reactstrap";
 
 const MenuCard = ({ menuitem }) => {
       const { image, name } = menuitem;
